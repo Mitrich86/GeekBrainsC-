@@ -6,11 +6,11 @@
 Console.WriteLine("Введите число ");
 Double num = Convert.ToDouble(Console.ReadLine());
 
-if ((num % 2) > 0)
+if (num % 2 == 0)
 {
-    Console.WriteLine($"Число: {num} не является четным");
+    Console.WriteLine($"Число: {num} Четное");
 }
 else
 {
-    Console.WriteLine($"Число: {num} является четным");
+    Console.WriteLine($"Число: {num} неЧетное");
 }
